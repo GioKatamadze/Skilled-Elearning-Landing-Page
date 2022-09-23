@@ -1,6 +1,6 @@
 # # Skilled Elearning Landing Page
 
-This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/skilled-elearning-landing-page-S1ObDrZ8q).
+This is a solution to the [Skilled Elearning Landing Page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/skilled-elearning-landing-page-S1ObDrZ8q).
 
 ## Table of contents
 
