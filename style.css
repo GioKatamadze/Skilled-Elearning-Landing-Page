@@ -1,0 +1,328 @@
+@media only screen and (min-width:375px) {
+    * {
+        font-family: "Plus Jakarta Sans", sans-serif;
+    }
+ 
+    body {
+        width: 100%;
+        background: linear-gradient(#FFFFFF, #F0F1FF);
+        overflow-X: hidden;
+    }
+    
+    .wrapper {
+        padding: 0px 16px 0 16px;
+        overflow-X: hidden;
+        text-align: center;
+    }
+
+    .logo {
+        width: 89px;
+    }
+
+    #button1 {
+        background-color: #13183F;
+        color: #FFFFFF;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #button3 {
+        background: linear-gradient(#4851FF, #F02AA6);;
+        color: #FFFFFF;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #button2 {
+        background: linear-gradient(#FF6F48, #F02AA6);
+        color: #FFFFFF;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 24px;
+    }
+
+    #button1, #button3 {
+        width: 140px;
+        height: 48px;
+        border-radius: 28px;
+        transition: 0.3s;
+    }
+
+    #button2 {
+        width: 167px;
+        height: 56px;
+        border-radius: 31.5px;
+        transition: 0.3s;
+    }
+
+    .header-desktop {
+        display: none;
+    }
+
+    .header-mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 16px;
+    }
+
+    .mobile-hero {
+        text-align: left;
+        margin-top: 38px; 
+    }
+
+    .desktop-hero {
+        display: none;
+    }
+
+    .hero-title {
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .hero-p {
+        color: #83869A;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        margin-top: 26px;
+    }
+
+    .img-box {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mobile-img {
+        width: auto;
+    }
+
+    .courses {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 80px;
+        padding: 0 16px 0 16px;
+    }
+
+    .box {
+        border-radius: 10px;
+        background-color: #FFFFFF;
+        text-align: left;
+        padding: 0 29px 32px 28px;
+        margin-top: 40px;
+        padding-right: 28px;
+        box-shadow: 0px 25px 50px 0px #06168D0B;
+        flex-basis: 100%;
+    }
+
+    .box1 {
+        border-radius: 10px;
+        background-color: #FFFFFF;
+        text-align: left;
+        padding: 24px 28px 32px 28px;
+        margin-bottom: 5px;
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 32px;
+        background: linear-gradient(#FF6F48, #F02AA6);
+        color: #FFFFFF;
+        flex-basis: 100%;
+    }
+
+    h2 {
+        background-color: transparent;
+    }
+
+    .icon {
+        width: 56px;
+        margin-top: -24px;
+    }
+
+    .course-name {
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 25px;
+        color: #13183F;
+        margin-top: 24px;
+    }
+    
+    .course-description {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        color: #83869A;
+        margin-top: 16px;
+        margin-bottom: 24px;
+    }
+
+    .course-link {
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 28px;
+        color: #F74780;
+        transition: 0.3s;
+    }
+
+    .footer {
+        bottom: 0;
+        left: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #13183F;
+        padding: 36px 16px 36px 16px;
+    }  
+
+    .buttons:hover {
+        cursor: pointer;
+    }
+
+    #button1:hover {
+        background-color: #666CA3;
+    }
+
+    #button2:hover {
+        opacity: 70%;
+    }
+
+    #button3:hover {
+        opacity: 0.6;
+    }
+
+    .course-link:hover {
+        color: #FFA7C3;
+        cursor: pointer;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    body {
+        width: 100vw;
+    }
+
+    .header-desktop {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .wrapper {
+        padding: 0px 32px 0 32px;
+    }
+
+    .mobile-hero {
+        display: none;
+    }
+
+    .desktop-hero {
+        display: flex;
+        align-items: center;
+    }
+
+    .hero-title, .hero-p {
+        width: 400px;
+        position: relative;
+        transform: translateY(-90px);
+        text-align: left;
+    }
+
+    #button2 {
+        position: relative;
+        transform: translateY(-90px);
+    }
+
+    .desktop-img {
+        width: 640px;
+        position: relative;
+        transform: translate(-70px, -140px);
+        z-index: -1;
+    }
+
+    .courses {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 80px;
+        margin-top: -100px;
+        padding: 0 20px 0 32px;
+    }
+
+    .box, .box1 {
+        flex-basis: 40%;
+        margin-right: 11px;
+    }
+
+    .box1 {
+        transform: translateY(40px);
+        height: 230px;
+    }
+
+    .footer {
+        padding: 36px 39px 36px 39px;
+    }
+}
+
+
+@media only screen and (min-width: 1000px) {
+    .header-desktop {
+        padding-left: 165px;
+        padding-right: 165px;
+    }
+
+    .desktop-img {
+        width: 990px;
+        position: relative;
+        transform: translate(200px, -150px);
+        z-index: -1;
+    }
+
+    .wrapper {
+        padding: 0px 165px 0 165px;
+    }
+
+    .box, .box1 {
+        flex-basis: 25%;
+        margin-right: 30px;
+    }
+
+    .courses {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 80px;
+        margin-top: -100px;
+        padding: 0 165px 0 165px;
+    }
+
+    .box1 {
+        transform: translateY(40px);
+        height: 201px;
+    }
+
+    .footer {
+        padding: 36px 165px 36px 165px;
+    }
+
+
+
+
+
+
+}
+
+
