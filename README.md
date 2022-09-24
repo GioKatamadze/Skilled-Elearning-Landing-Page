@@ -1,4 +1,4 @@
-# # Skilled Elearning Landing Page
+# Skilled Elearning Landing Page
 
 This is a solution to the [Skilled Elearning Landing Page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/skilled-elearning-landing-page-S1ObDrZ8q).
 
